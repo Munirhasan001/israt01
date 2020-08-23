@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.pic{
+	background-image: url(flower.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.head{
+	color: white;
+	text-align: center;
+	padding: 50px;
+	font-size: 40px;
+}
+.regi{
+	background-color: rgba(0,0,0,0.4);
+	width: 55%;
+	margin: auto;
+	padding: 15px;
+	border-color: initial;
+}
+.regi h2{
+	color: coral;
+	text-align: center;
+	padding: 15px;
+	font-size: 30px;
+	font-style: italic;
+}
+#regform{
+	color: white;
+	font-size: 20px;
+	width: 55%;
+	margin: auto;
+	font-style: italic;
+}
+#name{
+	width: 300px;
+	outline: 0;
+	padding: 7px;
+	border-radius: 7px;
+	border: 3px groove;
+}
+#Gender{
+	color: white;
+	font-size: 18px;
+}
+#che{
+	color: white;
+	font-size: 18px;
+}
+
+#num{
+	width: 210px;
+	outline: 0;
+	padding: 7px;
+	border-radius: 7px;
+	border: 3px groove;
+}
+#sec{
+	width: 69px;
+	outline: 0;
+	padding: 5px;
+	border-radius: 7px;
+	border: 3px groove;
+	font-size: 13px;
+}
+
+#sub{
+	color: white;
+	font-size: 20px;
+	width: 300px;
+	border-radius: 9px;
+	padding: 8px;
+	background-color: teal;
+}
+#date{
+	width: 150px;
+	outline: 0;
+	padding: 7px;
+	border-radius: 7px;
+	border: 3px groove;
+	font-size: 17px;
+}
+#sub:hover{
+	color: midnightblue;
+	background-color:coral;
+	transition: 0.5s;
+}
